@@ -1,5 +1,6 @@
 @setlocal
 @cd /d "%~dp0"
 @chdir
-:: venv\bin\activate.bat
+
 python main.py --config default.ini
+@REM "venv/Scripts/python.exe" main.py --config default.ini
