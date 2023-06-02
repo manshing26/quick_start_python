@@ -12,4 +12,7 @@ def build_structure(PWD):
     if not os.path.isdir(os.path.join(PWD,'config')):
         os.mkdir(os.path.join(PWD,'config'))
         
+    if not os.path.isdir(os.path.join(PWD,'asset')):
+        os.mkdir(os.path.join(PWD,'asset'))
+
     return
